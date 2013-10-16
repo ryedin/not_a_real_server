@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <title>Index.feather.html</title>
+  <script type="text/javascript" src="/feather-client/lib/underscore-min.js"></script><script type="text/javascript" src="/feather-client/lib/json2.js"></script><script type="text/javascript" src="/feather-client/lib/jquery-1.7.min.js"></script><script type="text/javascript" src="/feather-client/lib/jquery.tmpl.js"></script><script type="text/javascript" src="/feather-client/lib/jquery.cookie.js"></script><script type="text/javascript" src="/feather-client/lib/inherits.js"></script><script type="text/javascript" src="/feather-client/feather.js"></script><script type="text/javascript" src="/feather-client/base-class.js"></script><script type="text/javascript" src="/feather-client/event-publisher.js"></script><script type="text/javascript" src="/feather-client/dom-event-cache.js"></script><script type="text/javascript" src="/feather-client/registry.js"></script><script type="text/javascript" src="/feather-client/semaphore.js"></script><script type="text/javascript" src="/feather-client/fsm.js"></script><script type="text/javascript" src="/feather-client/util.js"></script><script type="text/javascript" src="/feather-client/widget.js"></script><script type="text/javascript" src="/feather-client/socket.js"></script><script type="text/javascript" src="/feather-client/lib/jquery.datalink.js"></script><script type="text/javascript" src="/feather-client/lib/jqueryUI/js/jqueryUI.min.js"></script><script type="text/javascript" src="/feather-client/ui.js"></script><link rel="stylesheet" type="text/css" href="/feather-client/lib/jqueryUI/css/jqueryUI.css" />
+</head>
+<body>
+  <h1>Light as a Feather</h1>
+<script type="text/javascript">feather.stateMachine.onceState("loadingComplete", function() {
+ feather.appOptions = {"socket.io":{"enabled":false,"port":8081,"host":"localhost","log level":1,"log level docs":"0 = error, 1 = warn, 2 = info, 3 = debug"},"isSecure":false,"sessionCookie":"feather.sid","useAjaxForSystem":true};
+ feather.stateMachine.fire("ready");
+});
+feather.stateMachine.onceState("ready", function(){
+
+});
+feather.stateMachine.fire('loadingComplete');
+</script></body>
+</html>
